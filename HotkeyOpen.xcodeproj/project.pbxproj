@@ -1,0 +1,439 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1E64331475E1FEE979CADF1A /* SettingsKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DAB6D5ADFA361983C2F4666 /* SettingsKeys.swift */; };
+		419EF0AA64F86EB32400D3C8 /* ShellRunner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09E25FCC54D3BC57E6A7BE11 /* ShellRunner.swift */; };
+		4469ADB528AD364001135881 /* AppItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D836E088A46EE91D2B42299 /* AppItem.swift */; };
+		69CBEC8310A8EA2FD44901DA /* RecentsStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 515B7901E752A3A554F3F34B /* RecentsStore.swift */; };
+		6C502B82456FB331CCCBEA21 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 871DADB9A90D7D9FEE245D66 /* SettingsView.swift */; };
+		7699EE5F83A26F16A69E91AC /* KeyboardShortcuts in Frameworks */ = {isa = PBXBuildFile; productRef = 7BEE588FBCDAF7CD9D203009 /* KeyboardShortcuts */; };
+		7ADEEDD3772CEF994D5E50CA /* LauncherView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99D5734CE09390C6E126A0F0 /* LauncherView.swift */; };
+		7C8B3253347935DB6E586F38 /* CommandStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = B61F3F0DF644CBF314C619A4 /* CommandStore.swift */; };
+		8162DD029C031C59034DE72E /* HotkeyManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B94AF49531E24D41C74E57FC /* HotkeyManager.swift */; };
+		9E760E696E77EE176207FBB5 /* CommandItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9486616315344FE93FE961ED /* CommandItem.swift */; };
+		9EAC57B2BF94FFBD0849ABA1 /* HotkeyOpenApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10E79E4FD88B247EB9A39C1C /* HotkeyOpenApp.swift */; };
+		B5EF07F042C870C679868145 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB019CC950F13D8C3B24457E /* AppDelegate.swift */; };
+		D31381DBCFCD7AB3F7A8CDE3 /* LauncherViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2579503C84BA713707B199C0 /* LauncherViewModel.swift */; };
+		DD2ACB5373FA8EE27EC41F82 /* LauncherWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1FF96258EC39FA1DA4DD9E9 /* LauncherWindowController.swift */; };
+		EC4EE8B807A77DD2C6E7847D /* AppProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5BB88CC0A1358EC0843C64D /* AppProvider.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		09E25FCC54D3BC57E6A7BE11 /* ShellRunner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShellRunner.swift; sourceTree = "<group>"; };
+		10E79E4FD88B247EB9A39C1C /* HotkeyOpenApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotkeyOpenApp.swift; sourceTree = "<group>"; };
+		2579503C84BA713707B199C0 /* LauncherViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LauncherViewModel.swift; sourceTree = "<group>"; };
+		2D836E088A46EE91D2B42299 /* AppItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppItem.swift; sourceTree = "<group>"; };
+		2DAB6D5ADFA361983C2F4666 /* SettingsKeys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsKeys.swift; sourceTree = "<group>"; };
+		515B7901E752A3A554F3F34B /* RecentsStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecentsStore.swift; sourceTree = "<group>"; };
+		765A435C76025829904B95E5 /* HotkeyOpen.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = HotkeyOpen.entitlements; sourceTree = "<group>"; };
+		871DADB9A90D7D9FEE245D66 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		9486616315344FE93FE961ED /* CommandItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommandItem.swift; sourceTree = "<group>"; };
+		98E7B99692F1A20CB815A024 /* HotkeyOpen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HotkeyOpen.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		99D5734CE09390C6E126A0F0 /* LauncherView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LauncherView.swift; sourceTree = "<group>"; };
+		A1FF96258EC39FA1DA4DD9E9 /* LauncherWindowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LauncherWindowController.swift; sourceTree = "<group>"; };
+		B61F3F0DF644CBF314C619A4 /* CommandStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommandStore.swift; sourceTree = "<group>"; };
+		B94AF49531E24D41C74E57FC /* HotkeyManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotkeyManager.swift; sourceTree = "<group>"; };
+		C5B1125EF195E38102844D73 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		C5BB88CC0A1358EC0843C64D /* AppProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppProvider.swift; sourceTree = "<group>"; };
+		CB019CC950F13D8C3B24457E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		97F061AFAD78A5326A23D9A1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7699EE5F83A26F16A69E91AC /* KeyboardShortcuts in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		06D617B4919EBD8FCF2210F8 /* Launcher */ = {
+			isa = PBXGroup;
+			children = (
+				99D5734CE09390C6E126A0F0 /* LauncherView.swift */,
+				2579503C84BA713707B199C0 /* LauncherViewModel.swift */,
+				A1FF96258EC39FA1DA4DD9E9 /* LauncherWindowController.swift */,
+				515B7901E752A3A554F3F34B /* RecentsStore.swift */,
+			);
+			path = Launcher;
+			sourceTree = "<group>";
+		};
+		1F805D17B3FAD0E09B122F43 /* Apps */ = {
+			isa = PBXGroup;
+			children = (
+				2D836E088A46EE91D2B42299 /* AppItem.swift */,
+				C5BB88CC0A1358EC0843C64D /* AppProvider.swift */,
+			);
+			path = Apps;
+			sourceTree = "<group>";
+		};
+		28993375F0A42428891CA732 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				98E7B99692F1A20CB815A024 /* HotkeyOpen.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3972DA71752E35890308F6CB /* HotkeyOpen */ = {
+			isa = PBXGroup;
+			children = (
+				765A435C76025829904B95E5 /* HotkeyOpen.entitlements */,
+				92690C9E160A651A868E5AB7 /* App */,
+				1F805D17B3FAD0E09B122F43 /* Apps */,
+				BC11DA7E01FD86F7B305C99B /* Commands */,
+				D28B2AF8268E0A478D6801A5 /* Hotkeys */,
+				06D617B4919EBD8FCF2210F8 /* Launcher */,
+				4BBA1EB7B3525112D6B244F9 /* Resources */,
+				DE1A8A79963D80166E8B9274 /* Settings */,
+			);
+			path = HotkeyOpen;
+			sourceTree = "<group>";
+		};
+		4BBA1EB7B3525112D6B244F9 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C5B1125EF195E38102844D73 /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		92690C9E160A651A868E5AB7 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				CB019CC950F13D8C3B24457E /* AppDelegate.swift */,
+				10E79E4FD88B247EB9A39C1C /* HotkeyOpenApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		BC11DA7E01FD86F7B305C99B /* Commands */ = {
+			isa = PBXGroup;
+			children = (
+				9486616315344FE93FE961ED /* CommandItem.swift */,
+				B61F3F0DF644CBF314C619A4 /* CommandStore.swift */,
+				09E25FCC54D3BC57E6A7BE11 /* ShellRunner.swift */,
+			);
+			path = Commands;
+			sourceTree = "<group>";
+		};
+		C874E9A791FBC2068DE3C6D9 = {
+			isa = PBXGroup;
+			children = (
+				3972DA71752E35890308F6CB /* HotkeyOpen */,
+				28993375F0A42428891CA732 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D28B2AF8268E0A478D6801A5 /* Hotkeys */ = {
+			isa = PBXGroup;
+			children = (
+				B94AF49531E24D41C74E57FC /* HotkeyManager.swift */,
+			);
+			path = Hotkeys;
+			sourceTree = "<group>";
+		};
+		DE1A8A79963D80166E8B9274 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				2DAB6D5ADFA361983C2F4666 /* SettingsKeys.swift */,
+				871DADB9A90D7D9FEE245D66 /* SettingsView.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		74F8153F5E4F7E75FCD8C909 /* HotkeyOpen */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 399978B95C4061A30D25CA9C /* Build configuration list for PBXNativeTarget "HotkeyOpen" */;
+			buildPhases = (
+				C3313C2D8C0F47D530C823EE /* Sources */,
+				97F061AFAD78A5326A23D9A1 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HotkeyOpen;
+			packageProductDependencies = (
+				7BEE588FBCDAF7CD9D203009 /* KeyboardShortcuts */,
+			);
+			productName = HotkeyOpen;
+			productReference = 98E7B99692F1A20CB815A024 /* HotkeyOpen.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EF4F76158A4E25FFD00166DA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					74F8153F5E4F7E75FCD8C909 = {
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = A80BC1603EB8458F13954D6B /* Build configuration list for PBXProject "HotkeyOpen" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = C874E9A791FBC2068DE3C6D9;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				504617FB68DE46A79CE4E384 /* XCRemoteSwiftPackageReference "KeyboardShortcuts" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 28993375F0A42428891CA732 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				74F8153F5E4F7E75FCD8C909 /* HotkeyOpen */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C3313C2D8C0F47D530C823EE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5EF07F042C870C679868145 /* AppDelegate.swift in Sources */,
+				4469ADB528AD364001135881 /* AppItem.swift in Sources */,
+				EC4EE8B807A77DD2C6E7847D /* AppProvider.swift in Sources */,
+				9E760E696E77EE176207FBB5 /* CommandItem.swift in Sources */,
+				7C8B3253347935DB6E586F38 /* CommandStore.swift in Sources */,
+				8162DD029C031C59034DE72E /* HotkeyManager.swift in Sources */,
+				9EAC57B2BF94FFBD0849ABA1 /* HotkeyOpenApp.swift in Sources */,
+				7ADEEDD3772CEF994D5E50CA /* LauncherView.swift in Sources */,
+				D31381DBCFCD7AB3F7A8CDE3 /* LauncherViewModel.swift in Sources */,
+				DD2ACB5373FA8EE27EC41F82 /* LauncherWindowController.swift in Sources */,
+				69CBEC8310A8EA2FD44901DA /* RecentsStore.swift in Sources */,
+				1E64331475E1FEE979CADF1A /* SettingsKeys.swift in Sources */,
+				6C502B82456FB331CCCBEA21 /* SettingsView.swift in Sources */,
+				419EF0AA64F86EB32400D3C8 /* ShellRunner.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1CD42C38565E312965C79063 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = HotkeyOpen/HotkeyOpen.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = HotkeyOpen/Resources/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hotkeyopen.app;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.10;
+			};
+			name = Debug;
+		};
+		25BE10F8C3F1FE9F3111359F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = HotkeyOpen/HotkeyOpen.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = HotkeyOpen/Resources/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hotkeyopen.app;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.10;
+			};
+			name = Release;
+		};
+		4892088B87A93BAA33E5A241 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		5BDC59A0FEEFA9D135E52B71 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		399978B95C4061A30D25CA9C /* Build configuration list for PBXNativeTarget "HotkeyOpen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1CD42C38565E312965C79063 /* Debug */,
+				25BE10F8C3F1FE9F3111359F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		A80BC1603EB8458F13954D6B /* Build configuration list for PBXProject "HotkeyOpen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4892088B87A93BAA33E5A241 /* Debug */,
+				5BDC59A0FEEFA9D135E52B71 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		504617FB68DE46A79CE4E384 /* XCRemoteSwiftPackageReference "KeyboardShortcuts" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/sindresorhus/KeyboardShortcuts";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		7BEE588FBCDAF7CD9D203009 /* KeyboardShortcuts */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 504617FB68DE46A79CE4E384 /* XCRemoteSwiftPackageReference "KeyboardShortcuts" */;
+			productName = KeyboardShortcuts;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = EF4F76158A4E25FFD00166DA /* Project object */;
+}

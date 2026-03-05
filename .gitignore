@@ -1,0 +1,6 @@
+.DS_Store
+.build/
+HotkeyOpen.app/
+*.xcodeproj/xcuserdata/
+*.xcworkspace/xcuserdata/
+.vscode/

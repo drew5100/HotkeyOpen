@@ -1,0 +1,44 @@
+name: HotkeyOpen
+options:
+  bundleIdPrefix: com.hotkeyopen
+  deploymentTarget:
+    macOS: "14.0"
+  xcodeVersion: "15"
+  generateEmptyDirectories: true
+
+packages:
+  KeyboardShortcuts:
+    url: https://github.com/sindresorhus/KeyboardShortcuts
+    from: 2.0.0
+
+targets:
+  HotkeyOpen:
+    type: application
+    platform: macOS
+    deploymentTarget: "13.0"
+    sources:
+      - path: HotkeyOpen
+        excludes:
+          - "Resources/Assets.xcassets"
+    resources:
+      - path: HotkeyOpen/Resources/Assets.xcassets
+    info:
+      path: HotkeyOpen/Resources/Info.plist
+      properties:
+        CFBundleDisplayName: HotkeyOpen
+        CFBundleShortVersionString: "1.0"
+        CFBundleVersion: "1"
+        LSUIElement: true
+        NSHumanReadableCopyright: ""
+        LSMinimumSystemVersion: "14.0"
+    entitlements:
+      path: HotkeyOpen/HotkeyOpen.entitlements
+    dependencies:
+      - package: KeyboardShortcuts
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.hotkeyopen.app
+        SWIFT_VERSION: "5.10"
+        MACOSX_DEPLOYMENT_TARGET: "14.0"
+        CODE_SIGN_STYLE: Automatic
+        ENABLE_HARDENED_RUNTIME: YES
